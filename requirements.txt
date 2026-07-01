@@ -1,0 +1,8 @@
+# Flux End-of-Turn Detection Tuning Lab
+# Pinned to the versions verified against a working Flux detection run.
+# Mock mode (smoke test) needs only the standard library; these are for a REAL run.
+
+deepgram-sdk==7.3.1     # Flux speech-to-text (listen.v2 WebSocket); Aura (speak.v1) for clip generation + ping
+python-dotenv==1.2.2    # load DEEPGRAM_API_KEY from .env
+numpy==2.4.6            # PCM buffer handling
+soundfile==0.13.1       # read/write 16 kHz linear16 WAV clips (needs libsndfile)

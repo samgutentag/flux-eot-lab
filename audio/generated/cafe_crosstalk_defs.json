@@ -1,0 +1,52 @@
+{
+  "cafe_crosstalk": [
+    {
+      "notes": "Coworking-desk booking in a loud cafe, second voice cutting in, 2.5s gaps (1:1 with Flux).",
+      "noise_snr_db": 15.0,
+      "turns": [
+        {"lead_ms": 300, "text": "Hi, I'm trying to book a desk at your downtown location for tomorrow.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1400, "text": "is this seat taken"}]},
+        {"lead_ms": 0, "text": "Do you have anything by a window, ideally away from the meeting rooms?", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1000, "text": "over here"}]},
+        {"lead_ms": 0, "text": "And is the day pass the same price if I come in the afternoon?", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1200, "text": "just a coffee"}]},
+        {"lead_ms": 0, "text": "Perfect, let me give you my membership number.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 800, "text": "hang on a sec"}]},
+        {"lead_ms": 0, "text": "Okay, that's everything, thanks so much.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 700, "text": "see you later"}]}
+      ]
+    },
+    {
+      "notes": "Missing-item order pickup at a busy counter, background chatter, 2.5s gaps (1:1 with Flux).",
+      "noise_snr_db": 15.0,
+      "turns": [
+        {"lead_ms": 300, "text": "I picked up a mobile order but one of the items is missing.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1300, "text": "next in line"}]},
+        {"lead_ms": 0, "text": "It was the large oat latte that never made it into the bag.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1000, "text": "for here or to go"}]},
+        {"lead_ms": 0, "text": "I'm still parked out front if it's quicker for me to grab it.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 900, "text": "two sugars"}]},
+        {"lead_ms": 0, "text": "No refund needed, I would just like the drink remade.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1100, "text": "whipped cream"}]},
+        {"lead_ms": 0, "text": "Great, I'll wait right by the pickup counter.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 700, "text": "order up"}]}
+      ]
+    },
+    {
+      "notes": "IT support call from a busy coworking cafe, someone talking over, 2.5s gaps (1:1 with Flux).",
+      "noise_snr_db": 15.0,
+      "turns": [
+        {"lead_ms": 300, "text": "My laptop will not connect to the guest network here at the cafe.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1200, "text": "what's the password"}]},
+        {"lead_ms": 0, "text": "It says authentication failed even after I reset the password.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1400, "text": "try channel six"}]},
+        {"lead_ms": 0, "text": "I have a call in ten minutes so I'm a little pressed for time.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1000, "text": "use my hotspot"}]},
+        {"lead_ms": 0, "text": "Could you just tell me if the router on your end is down?", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 1100, "text": "it's blinking red"}]},
+        {"lead_ms": 0, "text": "Okay, I'll switch to my phone for now, thank you.", "gap_ms": 2500,
+         "distractors": [{"offset_in_turn_ms": 700, "text": "good luck"}]}
+      ]
+    }
+  ]
+}

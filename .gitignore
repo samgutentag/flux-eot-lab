@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# generated audio (regenerate with audio/generate_audio.py; large, not committed)
+audio/*.wav
+audio/clips/*.wav
+
+# run outputs: ignore everything in results/, ship only the canonical evidence
+results/*
+!results/raw_real.jsonl
+!results/recommendations.md
+
+# os
+.DS_Store

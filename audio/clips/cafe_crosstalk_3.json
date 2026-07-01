@@ -1,0 +1,71 @@
+{
+  "clip_id": "cafe_crosstalk_3",
+  "audio_class": "cafe_crosstalk",
+  "audio_file": "cafe_crosstalk_3.wav",
+  "sample_rate": 16000,
+  "encoding": "linear16",
+  "duration_ms": 28720.0,
+  "turns": [
+    {
+      "turn_index": 0,
+      "true_end_ms": 3820.0,
+      "transcript": "My laptop will not connect to the guest network here at the cafe.",
+      "speaker": "primary",
+      "distractor_spans": [
+        {
+          "start_ms": 1500.0,
+          "end_ms": 2860.0
+        }
+      ]
+    },
+    {
+      "turn_index": 1,
+      "true_end_ms": 10000.0,
+      "transcript": "It says authentication failed even after I reset the password.",
+      "speaker": "primary",
+      "distractor_spans": [
+        {
+          "start_ms": 7720.0,
+          "end_ms": 9080.0
+        }
+      ]
+    },
+    {
+      "turn_index": 2,
+      "true_end_ms": 15540.0,
+      "transcript": "I have a call in ten minutes so I'm a little pressed for time.",
+      "speaker": "primary",
+      "distractor_spans": [
+        {
+          "start_ms": 13500.0,
+          "end_ms": 15700.0
+        }
+      ]
+    },
+    {
+      "turn_index": 3,
+      "true_end_ms": 21360.0,
+      "transcript": "Could you just tell me if the router on your end is down?",
+      "speaker": "primary",
+      "distractor_spans": [
+        {
+          "start_ms": 19140.0,
+          "end_ms": 21340.0
+        }
+      ]
+    },
+    {
+      "turn_index": 4,
+      "true_end_ms": 26220.0,
+      "transcript": "Okay, I'll switch to my phone for now, thank you.",
+      "speaker": "primary",
+      "distractor_spans": [
+        {
+          "start_ms": 24560.0,
+          "end_ms": 25400.0
+        }
+      ]
+    }
+  ],
+  "notes": "IT support call from a busy coworking cafe, someone talking over, 2.5s gaps (1:1 with Flux)."
+}

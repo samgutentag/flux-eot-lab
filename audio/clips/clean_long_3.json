@@ -1,0 +1,39 @@
+{
+  "clip_id": "clean_long_3",
+  "audio_class": "clean_long",
+  "audio_file": "clean_long_3.wav",
+  "sample_rate": 16000,
+  "encoding": "linear16",
+  "duration_ms": 50500.0,
+  "turns": [
+    {
+      "turn_index": 0,
+      "true_end_ms": 10340.0,
+      "transcript": "The reason I keep coming back to the latency question is that everything else we build sits on top of it, and if the foundation feels slow nothing we add later will fix that impression.",
+      "speaker": "primary",
+      "distractor_spans": []
+    },
+    {
+      "turn_index": 1,
+      "true_end_ms": 24720.0,
+      "transcript": "I would rather ship a smaller feature set that feels instant than a long list of capabilities that each make the user wait a beat longer than they expect.",
+      "speaker": "primary",
+      "distractor_spans": []
+    },
+    {
+      "turn_index": 2,
+      "true_end_ms": 38100.0,
+      "transcript": "We also need to be careful that the metrics we report actually match what a person feels, because an average can hide the handful of slow responses that ruin the whole session.",
+      "speaker": "primary",
+      "distractor_spans": []
+    },
+    {
+      "turn_index": 3,
+      "true_end_ms": 48000.0,
+      "transcript": "Let's agree to track the worst case alongside the median, and treat a bad tail as a real bug rather than rounding it away.",
+      "speaker": "primary",
+      "distractor_spans": []
+    }
+  ],
+  "notes": "Long single-utterance turns, no intra-turn pauses, 2.5s gaps (1:1 with Flux)."
+}

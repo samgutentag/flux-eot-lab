@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "generated_by": "audio/generate_audio.py real Aura clips; sidecars are committed and drive --mock with no WAVs, the WAVs are gitignored (regenerate with generate_audio.py for a real run)",
+  "clips": [
+    "clips/clean_short_1.json",
+    "clips/clean_short_2.json",
+    "clips/clean_short_3.json",
+    "clips/clean_long_1.json",
+    "clips/clean_long_2.json",
+    "clips/clean_long_3.json",
+    "clips/noisy_single_1.json",
+    "clips/noisy_single_2.json",
+    "clips/noisy_single_3.json",
+    "clips/crosstalk_1.json",
+    "clips/crosstalk_2.json",
+    "clips/crosstalk_3.json",
+    "clips/cafe_crosstalk_1.json",
+    "clips/cafe_crosstalk_2.json",
+    "clips/cafe_crosstalk_3.json"
+  ]
+}

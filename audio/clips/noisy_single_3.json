@@ -1,0 +1,46 @@
+{
+  "clip_id": "noisy_single_3",
+  "audio_class": "noisy_single",
+  "audio_file": "noisy_single_3.wav",
+  "sample_rate": 16000,
+  "encoding": "linear16",
+  "duration_ms": 25680.0,
+  "turns": [
+    {
+      "turn_index": 0,
+      "true_end_ms": 3300.0,
+      "transcript": "It's pretty windy out here, let me know if I cut out.",
+      "speaker": "primary",
+      "distractor_spans": []
+    },
+    {
+      "turn_index": 1,
+      "true_end_ms": 9280.0,
+      "transcript": "I'm walking the dog and heading back in a few minutes.",
+      "speaker": "primary",
+      "distractor_spans": []
+    },
+    {
+      "turn_index": 2,
+      "true_end_ms": 14380.0,
+      "transcript": "Can you remind me what we still need from the store?",
+      "speaker": "primary",
+      "distractor_spans": []
+    },
+    {
+      "turn_index": 3,
+      "true_end_ms": 19160.0,
+      "transcript": "Add coffee to that too while you're at it.",
+      "speaker": "primary",
+      "distractor_spans": []
+    },
+    {
+      "turn_index": 4,
+      "true_end_ms": 23180.0,
+      "transcript": "Perfect, see you soon.",
+      "speaker": "primary",
+      "distractor_spans": []
+    }
+  ],
+  "notes": "Single-speaker turns with noise on the speech only, clean gaps, 2.5s gaps."
+}

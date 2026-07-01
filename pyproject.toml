@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flux-eot-lab"
+version = "0.1.0"
+description = "Measure and tune Deepgram Flux end-of-turn detection per acoustic condition."
+requires-python = ">=3.10"
+# Runtime deps live in requirements.txt (the source of truth for a real run).
+# Kept out of here so `pip install -e .` is a fast metadata + entry-point install.
+
+[project.scripts]
+# The one-command front door: point it at your audio, get a recommendation.
+# Wraps recommend.py's main (sweep -> analysis -> recommendations).
+flux-bench = "recommend:main"
+
+[tool.setuptools]
+py-modules = ["bench", "recommend"]
+packages = ["flux_eot_lab"]
